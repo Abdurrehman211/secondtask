@@ -167,14 +167,13 @@ text-align: center;
         height: 19px;
     }
     #Desktop {
-        width: 300px;
-        height: 300px;
-        position: absolute;
-        /* left: 553px; */
-        right: 11%;
-        top: 768px;
-        border-top-left-radius: 28%;
         border-bottom-right-radius: 30%;
+        border-top-left-radius: 28%;
+        height: 210px;
+        position: absolute;
+        right: 37%;
+        top: 101px;
+        width: 240px;
     }
     #About-col h1 {
         font-family: Montserrat;

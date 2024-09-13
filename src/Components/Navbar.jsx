@@ -17,7 +17,7 @@ function Navbar() {
             </div>
 
             {/* Hamburger Icon */}
-            <div className="hamburger" onClick={toggleMenu}>
+            <div className={`hamburger ${isMenuOpen ? "active" : ""}`} onClick={toggleMenu}>
                 <span className="bar"></span>
                 <span className="bar"></span>
                 <span className="bar"></span>

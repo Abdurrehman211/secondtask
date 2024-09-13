@@ -591,7 +591,26 @@ transition: 0.5s ease;
             width: 100%;
             height: 100%;
         }
-
+        .Btn {
+            width: 45px;
+            height: 45px;
+            background: linear-gradient(#44ea76, #39fad7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            cursor: pointer;
+            position: relative;
+            border: none;
+            position: fixed;
+            bottom: 57px;
+            right: 69px;
+            z-index: 100;
+            opacity: 0.5;
+            scale: 0.8;
+            transform: translate(30px, 50px);
+            transition: 0.5s ease;
+        }
     #h122{
         font-size: 40px;
     }
@@ -607,12 +626,48 @@ transition: 0.5s ease;
         /* margin-left: -36px; */
         /* border-radius: 20px; */
         border-top-right-radius: 20px;
+        width: 90%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    #story1 {
+        margin-top: auto;
+        border-top: 3px solid blue;
+        padding-right: 25%;
+        /* margin-left: 40px; */
+        position: relative;
+        top: 23px;
+    }
+    #story2 {
+        width: 186px;
+        margin-left: 0px;
+        text-align: left;
+        margin-left: -26%;
+        padding-right: 32px;
+    }
+    #arrow-btn {
+        padding: 0px 20px;
+        background-image: linear-gradient(to right, green, green, rgb(28, 28, 105));
+        border-radius: 10px;
+        border: none;
+        transition: 0.5s ease;
     }
     #Paragraph {
+        font-size: 1rem;
         margin-top: -17px;
-        width: 247px;
+        width: 70%;
         text-align: justify;
-        padding-left: 5px;
+        padding-left: 0px;
+    }
+    #about {
+        /* width: 50%; */
+        padding-left: 7%;
+        color: rgb(168, 168, 168);
+        font-weight: bold;
+        text-align: left;
+        /* padding: 20px; */
+        width: 100%;
     }
     .circle {
         /* position: absolute; */
@@ -625,6 +680,7 @@ transition: 0.5s ease;
         justify-content: center;
         align-items: center;
         animation: rotate 10s linear infinite;
+        margin-left: -32%;
     }
     .text12 {
         position: absolute;
@@ -633,6 +689,14 @@ transition: 0.5s ease;
         margin-top: -150px;
         margin-left: -68px;
         transform-origin: 100px 100px;
+    }
+    .card {
+        margin-bottom: 5px;
+        width: 100%;
+        /* height: 100%; */
+        border-radius: 20px;
+        cursor: pointer;
+        transition: 0.5s ease;
     }
     #Canva {
         width: 300px;
@@ -647,14 +711,14 @@ transition: 0.5s ease;
         height: 360px;
         position: relative;
         top: 110px;
-        left: 0;
+        left: 200px;
         gap: 0px;
         border-top: 4px solid rgb(16, 182, 16);
         border-right: 4px solid rgb(16, 179, 16);
         border-bottom: 4px solid rgb(16, 179, 16);
         margin-top: 301px;
         padding: 10px;
-        margin-left: 4px;
+        margin-left: -202px;
     }
     #about p {
         font-size: 13px;
@@ -662,11 +726,31 @@ transition: 0.5s ease;
         text-align: left;
         padding-left: 20px;
     }
+    .footer32 h3{
+        font-size: 1.2rem;
+    }
     .title {
         color: aliceblue;
         font-size: 45px;
         font-weight: bold;
         text-align: left;
+    }
+    .rect1 {
+        background-color: white;
+        border-bottom: 2px solid green;
+        width:75%;
+        height: 180px;
+        /* padding: 20px; */
+        margin-left: -15px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        border-bottom-right-radius: 20px;
+        border-right: 2px solid green;
+        margin-top: -3px;
+    }
+    .rect1 img{
+        width: 95%;
+        height: 100%;
     }
     .rect {
         background-color: white;
@@ -679,11 +763,11 @@ transition: 0.5s ease;
         /* border-bottom-right-radius: 20px; */
         /* border-right: 4px solid green; */
         /* margin-top: -4px; */
-        margin-left: 40.9%;
-        margin-top: 169px;
+        margin-left: 43.9%;
         border-top-left-radius: 20px;
         border-top: 2px solid green;
         border-left: 2px solid green;
+        margin-top: 283px;
     }
     #rect12 {
         margin-top: 5px;
@@ -742,6 +826,7 @@ transition: 0.5s ease;
         line-height: 25px;
         text-align: left;
         color: black;
+        width: 120%;
     }
     #p1 {
         margin-top: 0px;
@@ -751,7 +836,9 @@ transition: 0.5s ease;
         line-height: 25px;
         text-align: left;
         color: black;
+        width: 120%;
     }
+  
     .Last {
         /* margin-bottom: -20px; */
         font-family: Oswald;
@@ -764,6 +851,13 @@ transition: 0.5s ease;
         color: white;
         position: relative;
     }    
+    #Text1 h1 {
+        font-family: Montserrat;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 40.51px;
+        text-align: left;
+    }
     #arrow-btn1 {
         padding: 0;
         background-image: linear-gradient(to right, green, green, rgb(28, 28, 105));
@@ -812,6 +906,20 @@ transition: 0.5s ease;
     #roooow {
         display: block;
         justify-content: center;
+    }
+    .Canva {
+        width: 250px;
+        height: 360px;
+        position: relative;
+        top: 110px;
+        left: 200px;
+        gap: 0px;
+        border-top: 4px solid rgb(16, 182, 16);
+        border-right: 4px solid rgb(16, 179, 16);
+        border-bottom: 4px solid rgb(16, 179, 16);
+        margin-top: 301px;
+        padding: 10px;
+        margin-left: -202px;
     }
     .circle {
         margin-left: 29%;
@@ -894,6 +1002,9 @@ margin-right: -8px;
     color: black;
     font-weight: bold;
 }
+.footer32 h3{
+    font-size: 11px;
+}
     .Story {
         margin-right: 0;
         /* margin-left: 0; */
@@ -932,8 +1043,8 @@ margin-right: -8px;
 
     .Last {
         position: relative;
-        font-size: 57px;
-        top: 145px;
+        font-size: 40px;
+        top: 179px;
     }
 
     /* .links ul {
@@ -953,7 +1064,7 @@ margin-right: -8px;
     }
     #Half {
         position: absolute;
-        right: -9px;
+        /* right: -9px; */
         margin-top: -71%;
     }
     .rect1 {
@@ -1001,5 +1112,8 @@ margin-right: -8px;
         height: 609px;
         padding: 20px;
         text-align: center;
+    }
+    .links li {
+        margin: 0 7px;
     }
 }

@@ -97,13 +97,35 @@ flex-direction: column;
 }
 @media screen and (max-width: 786px) {
     #convert {
-        margin-left: -213px;
+        margin-left: -211px;
         width: 1000px;
         height: max-content;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         text-align: center;
     }
+    /* .lower-row, */
+    /* .Upper-row {
+        display: flex;
+        /* width: 50%; */
+        /* justify-content: space-between; */
+        /* flex-direction: column;
+        height: 705px; */
+        .lower-row {
+            width: 44%;
+            display: flex;
+            height: 705px;
+            padding: 0;
+            margin-left: -8px;
+        }
+        .Upper-row {
+            display: flex;
+            width: 42%;
+            justify-content: space-between;
+            flex-direction: column;
+            height: 705px;
+        }
+    
     #icons p {
         font-size: 10px;
         margin: 0;

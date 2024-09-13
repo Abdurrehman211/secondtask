@@ -6,6 +6,7 @@ import About from './Components/About'
 import Services from './Components/Services';
 import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
+import OffcanvasExample from './Components/Nav-bar';
 function App() {
   return (
     

@@ -88,8 +88,7 @@ try{
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12">
                         <div className="main23123">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12968.694996365033!2d71.50813543521005!3d30.16680532641088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa99f2c1b8eb5cdbb%3A0x7fa0a9d7917eceda!2sMarketBrains%20Co!5e1!3m2!1sen!2s!4v1726083469423!5m2!1sen!2s" width="545" height="700" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+                    
                     </div>
                     </div>
                 </div>
